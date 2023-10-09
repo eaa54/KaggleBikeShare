@@ -24,4 +24,4 @@ plot_correlation(bike)
 ggplot(bike, aes(x=temp, y=count, color=holiday)) +
   geom_point() +
   geom_smooth() #looking temperature trend
-
+plot(y = bike$count, x = bike$windspeed)
